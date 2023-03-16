@@ -1,5 +1,5 @@
 /*  ============= WEB BROWSER RESETS ============ */
-body { background-color: lightpink; }
+body { background-color: #fef0fe; }
 
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
