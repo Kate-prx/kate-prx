@@ -1,5 +1,5 @@
 /*  ============= WEB BROWSER RESETS ============ */
-body { background-color: purple; }
+body { background-color:plum; }
 
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
@@ -29,7 +29,7 @@ h1 {
     text-align: center;
     font-weight: normal;
     letter-spacing: 4px;
-    color: white;
+    color: darkslategrey;
 
 }
 
@@ -38,7 +38,7 @@ h2 {
     margin-bottom: 4px;
     margin-top: 54px;
     text-transform: uppercase;
-    color: white;
+    color: darkslategrey;
 
 }
 
@@ -47,8 +47,8 @@ p {
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
-    color: white;
+    color: darkslategrey;
 
 }
 
-a {color:white}
+a {color:darkslategrey}
