@@ -4,16 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kate Smullen | Home Page</title>
-    <meta name="description" content="Welcome to my website a showcase of my digital creations.">
-    <link rel="stylesheet" href="assets/css/global.css">
+    <title>Kate.prx | Home Page</title>
+    <meta name="description" content="Portfolio creations">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">    
-<link rel="icon" type="image/png" sizes="32x32" href="assets/img//favicon-32x32.png">    
-<link rel="icon" type="image/png" sizes="16x16" href="assets/img//favicon-16x16.png">    
-<link rel="manifest" href="assets/img/site.webmanifest">
-
-<!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YZKJH85P35"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -23,40 +17,201 @@
   gtag('config', 'G-YZKJH85P35');
 </script>
 
+	<!-- Preload large image -->
+
+	<!-- Stylesheets -->
+    <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+	<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6 icons. Delete if not using. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
 </head>
 
 
-
 <body>
-    <h1>Kate Smullen</h1>
-    <h2>Web Designer</h2>
+
+
+	
+    <!-- menu and 'hero block' header -->
+    <nav class="theme-light"><div class="container-menu">
+        <a href="index.html" class="brand">
+            <img src="assets/img/favicon-32x32.png" alt="website logo">
+        </a>
     
-<p>Web and Graphic Designer based in Kildare</p>
+        <div class="container-menu-links">
+    
+            <div class="nav-toggle" id="nav-toggle-btn">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+            </div>
+    
+            <ul class="links-wrapper">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio/index.html">Portfolio</a></li>
+                <li><a href="contact/index.html" class="btn btn-solid btn-soft" id="btn-cta"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
+            </ul>
+        </div></div></nav>
 
-<img src="assets/img/white-image.jpg" alt="White Cylinders">
+
+<!-- header starts here -->
+<header class="theme-dark hero-bg desktop-min-height-90vh text-center-desktop text-center-mobile">
+
+    <div class="container-text reveal-fade-in-header">
+			
+        <h1 class="text-shadow heading-underline">Kate.prx</h1>
+        <h2 class="text-shadow">Web and Graphic Designer</h2>
+    </div>
 
     
-    <h3>Sample Web Pages</h3>
+
+    <div class="container-media">
+        <img src="assets/img/graphic-design.jpg" alt="Placeholder image">
+    </div>
+
+    <div class="container-overlay"></div>
+
+	<div class="container-btn">
+		<a href="contact/index.html" class="btn btn-solid btn-large btn-shadow btn-uppercase btn-soft"><span>Get in Touch</span><i class="fa-regular fa-envelope"></i></a>
+		
+		</div>
+
+</header>
+
     
-    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-
-    <p><a href="exercises/page-2.html">Purple Rain</a></p>
-
-    <p><a href="exercises/page-3.html">Web page with sections</a></p>
-
-    <p><a href="exercises/page-5.html">Vincent van Gogh</a></p> 
-
-    <p><a href="exercises/page-6.html">Irish Tourism</a></p> 
-
-    <p><a href="exercises/page-7.html">Smoothies</a></p> 
-
-    <p><a href="exercises/page-8.html">Software Analytics</a></p> 
-
-    <p><a href="exercises/page-9.html">The Box Model</a></p>
-
-    <p><a href="exercises/page-10.html">Web Page With Panels</a></p> 
+    <!-- main content with sections -->
+    <main>
 
 
+
+	<!-- section starts here -->
+
+	<section class="theme-light section-selector-1 w-1356px">
+
+		<div class="col-1 w-820px text-center">
+			<h2 class="">Projects</h2>
+			<p>A portfolio of my current projects. </p>
+		</div>
+
+		<!-- Begin three-column flexbox grid -->
+		<div class="flex-cols-3 cols-gap-2 cols-background cols-padding cols-shadows cols-corners-soft rad-10px">
+
+			<div class="col-3">
+				<figure>
+					<a href="portfolio/project-hero/index.html"><img src="assets/img/project-hero.png" alt="Placeholder image"></a>
+				</figure>
+				<h3>Hero Block Gallery</h3>
+				<p>A gallery of hero block elements with split-screen layouts and duotone images.</p>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<a href="portfolio/fashion/index.html"><img src="assets/img/project-fashion.jpg" alt="Placeholder image"></a>
+				</figure>
+				<h3>Snazzy Fashion</h3>
+				<p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+			</div>
+
+			<div class="col-3">
+				<figure>
+					<a href="portfolio/smoothies/index.html"><img src="assets/img/project-smoothie.jpg" alt="Placeholder image"></a>
+				</figure>
+				<h3>Smooth Smoothies</h3>
+				<p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+			</div>
+
+
+		</div>
+		<!-- End three-column flexbox grid -->
+
+	</section>
+
+	<!-- section ends here -->
+
+
+    </main>
+
+    <!-- footer -->
+ 
+
+
+	<!-- footer starts here -->
+    <footer class="theme-dark footer-3">
+
+		<!-- Begin four-column flexbox grid -->
+		<div class="footer-cols-3 w-1356px">
+
+			<div class="col-3">
+                <a href="index.html" class="brand">
+                    <img src="assets/img/faviconio-logo (1)/logo.svg" alt="website logo" style="width: 200px; height: 40px">
+                </a>
+
+                <h2>KATE.PRX</h2>
+                <p>Web and Graphic Designer</p><ul class="footer-icons">	
+
+		<li><a href="contact/index.html"><i class="fa-solid fa-envelope"></i></a></li>
+		<li><a href="index.html" target="_blank"><i class="fab fa-github-square"></i></a></li>
+</ul>
+
+                
+			</div>
+
+            <div class="col-3">
+				<h3>Useful Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact/index.html">Get in touch</a></li>
+                    <li><a href="Privacy.html">Privacy</a></li>
+                </ul>
+			</div>
+
+            <div class="col-3">
+				<h3>Contact</h3>
+                <ul class="fa-ul footer-links">
+                    <li><span class="fa-li"><i class="fa-solid fa-location-dot"></i></span> <address> Kildare, Ireland.</address></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-phone"></i></span> <a href="tel:123-456-7890">085 762 5573</a></li>
+                    <li><span class="fa-li"><i class="fa-solid fa-envelope"></i></span> <a href="mailto:info@emailaddress.com">kate.prx@outlook.com</a></li>
+                </ul>
+
+			</div>
+		</div>
+		<!-- End three-column flexbox grid -->
+        <div class="copyright">
+            <p>Copyright © 2023 Kate.prx. All rights reserved.</p>
+			<p class="privacy"><a href="Privacy.html">Privacy &amp; Legal</a></p>
+
+        </div>
+
+	</footer>
+	<!-- footer ends here -->
+
+
+    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "content": {
+    "href": "https://kate-prx.github.io/privacy.html"
+  }
+});
+</script>
 
 </body>
 </html>
+
