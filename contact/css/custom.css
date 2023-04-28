@@ -1,0 +1,71 @@
+ul {font-family: 'Abril Fatface';
+    font-size: 28px;
+}
+header.theme-dark h1 { color: var(--pink-100) }
+header.theme-dark h1.heading-underline::after { background-color: var(--pink-100) }
+header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); } 
+
+.section-selector-2 { background-color: var(--slate-100) }
+.theme-light.section-selector-2 #btn-submit { color: var(--pink-200) }
+.theme-light.section-selector-2 #btn-submit { background-color: var(--rose-700) }
+.theme-light.section-selector-2 #btn-submit { border-color: var(--rose-700) }
+.theme-light.section-selector-2 #btn-submit:focus,
+.theme-light.section-selector-2 #btn-submit:hover,
+.theme-light.section-selector-2 #btn-submit:active { color: var(--pink-200) }
+
+.theme-light.section-selector-2 #btn-submit:focus,
+.theme-light.section-selector-2 #btn-submit:hover,
+.theme-light.section-selector-2 #btn-submit:active { background-color: var(--rose-400) }
+
+.theme-light.section-selector-2 #btn-submit:focus,
+.theme-light.section-selector-2 #btn-submit:hover,
+.theme-light.section-selector-2 #btn-submit:active { border-color: var(--rose-400) }
+
+@media (min-width: 768px) { .section-selector-2 .col-2 figure.fig-shadows-box { filter: drop-shadow(8px 8px 8px rgba(120,144,156,0.9)); } }
+@media (max-width: 767px) { .section-selector-2 .col-2 figure.fig-shadows-box { filter: drop-shadow(6px 6px 6px rgba(120,144,156,0.9)); } }
+
+h1 {font-family: 'Abril Fatface', cursive;
+    font-size: 64px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+h2 {font-family: 'Abril Fatface', cursive;
+    font-size: 38px;
+}
+h3 {font-family: 'Abril Fatface', cursive;
+}
+p {font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+footer.theme-dark { background-color: var(--slate-700) }
+footer.theme-dark .col-3 h2 { color: var(--pink-200) }
+footer.theme-dark .col-3 ul li address { color: var(--slate-100) }
+footer.theme-dark .col-3 p { color: var(--slate-100) }
+footer.theme-dark .col-3 h3 { color: var(--pink-200) }
+footer.theme-dark .copyright { background-color: var(--slate-700) }
+footer.theme-dark .copyright p { color: var(--slate-100) }
+footer.theme-dark ul.footer-links li a:link,
+footer.theme-dark ul.footer-links li a:visited { color: var(--slate-100) }
+
+footer.theme-dark ul.footer-links li a:link,
+footer.theme-dark ul.footer-links li a:visited { text-decoration-color: transparent }
+
+footer.theme-dark ul.footer-links li a:focus,
+footer.theme-dark ul.footer-links li a:hover,
+footer.theme-dark ul.footer-links li a:active { text-decoration-color: inherit }
+
+footer.theme-dark ul.footer-icons li a:link i,
+footer.theme-dark ul.footer-icons li a:visited i { color: var(--pink-200) }
+footer.theme-dark ul.footer-links li .fa-li i { color: var(--pink-200) }
+
+footer.theme-dark ul.footer-icons li a:focus i,
+footer.theme-dark ul.footer-icons li a:hover i,
+footer.theme-dark ul.footer-icons li a:active i { color: var(--pink-900) }
+
+footer.theme-dark ul.footer-links li a:focus,
+footer.theme-dark ul.footer-links li a:hover,
+footer.theme-dark ul.footer-links li a:active { color: var(--rose-900) }
